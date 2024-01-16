@@ -17,6 +17,8 @@ class TitlesView(QtWidgets.QWidget):
         self.client = PSNCache.CLIENT
         self.psnawp = PSNCache.PSNAWP
 
+        self.setWindowTitle("PSN Titles View")
+
         self.main_layout = QtWidgets.QHBoxLayout()
         self.setLayout(self.main_layout)
 
